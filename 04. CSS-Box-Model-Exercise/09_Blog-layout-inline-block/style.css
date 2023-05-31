@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color:  rgb(51, 51, 51);
+    width: 50%;
+}
+article {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+    padding-left: 25px;
+}
+aside {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+img {
+    width: 65%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+section {
+    margin-top: 60px;
+}
+ul {
+    list-style: square;
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+article  h1, h2 {
+    font-size: 30px;
+}
+header p {
+    margin-top: 1px;
+}
+aside h2 {
+    font-size: 25px;
+}

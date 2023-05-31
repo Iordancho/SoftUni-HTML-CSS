@@ -1,0 +1,26 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+ul, li, nav{
+    display: inline-block;
+}
+div {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+a {
+    text-decoration: none;
+    color: green;
+    padding-left: 30px;
+}
+
+header {
+    border-bottom: 2px solid gray;
+    margin: 40px 60px;
+}
+
+main {
+    margin: 40px 60px;
+}
