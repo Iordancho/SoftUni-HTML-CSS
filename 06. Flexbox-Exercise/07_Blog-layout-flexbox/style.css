@@ -1,0 +1,67 @@
+body {
+    margin: 70px 80px;
+    background-color: rgb(238, 238, 238);
+}
+img {
+    background-color: rgb(255, 255, 255);
+}
+.mainheader {
+    border-bottom: 2px solid black;
+}
+.mainheader p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.page h2 {
+    font-family: Georgia, serif;
+}
+main {
+    width: 650px;
+}
+.first_image {
+    float: right;
+    margin-left: 15px;
+    border: 3px solid black;
+    padding: 7px;
+}
+.second_image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    padding: 7px;
+}
+.quote {
+    display: flex;
+}
+blockquote {
+    font-family: Georgia, serif;
+    width: 35%;
+    font-style: italic;
+    border-left: 3px solid gray;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+}
+#block {
+    margin-top: 0px;
+    width: 50%;
+}
+.author {
+    text-align: right;
+}
+section{
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
