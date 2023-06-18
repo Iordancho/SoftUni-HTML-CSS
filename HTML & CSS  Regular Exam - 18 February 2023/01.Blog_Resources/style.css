@@ -1,0 +1,60 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+/*
+cards bg color: #66545e
+body bg color: #f6e0b5
+
+*/
+
+article{
+    background-color: #f6e0b5;
+    padding: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    font-size: 30px;
+    width: 300px;
+    color: #66545e;
+}
+aside p {
+    margin-top: 12px;
+}
+aside ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+i{
+    font-size: 20px;
+}
+.card-container{
+    display: inline-block;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 40%;
+    gap: 25px;
+    margin-right: 0px;
+}
+.card {
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #66545e;
+    color: white;
+    font-size: 20px;
+}
+.card img{
+    width: 400px;
+    height: 180px;
+}
+.card p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 6px 5px 10px 5px;
+}
